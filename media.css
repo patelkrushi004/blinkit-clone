@@ -1,0 +1,12 @@
+@media only screen and (min-width:200px) and (max-width:757px) {
+      header{
+            flex-direction: column;
+      }
+      .logo{
+            padding: 10px;
+      }
+      .headeraddress{
+            padding: 10px;
+      
+      }
+}

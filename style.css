@@ -8,3 +8,21 @@ header{
       display: flex;
       
 }
+.headerleft{
+      display: flex;
+      align-items: center;
+}
+.logo{
+      padding: 22px 30px;
+      border-right: 1px solid #ccc;
+}
+.headeraddress{
+      padding: 20px 30px;
+}
+.headeraddress h3{
+      font-size: 18px;
+      margin-bottom: 5px;
+}
+.headeraddress p{
+      font-size: 18px;
+}

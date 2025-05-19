@@ -6,14 +6,15 @@
 }
 header{
       display: flex;
-      
+      border-bottom: 1px solid #ccc;
+      border-top: 1px solid #ccc;
 }
 .headerleft{
       display: flex;
       align-items: center;
 }
 .logo{
-      padding: 22px 30px;
+      padding: 24px 30px;
       border-right: 1px solid #ccc;
 }
 .headeraddress{
@@ -25,4 +26,7 @@ header{
 }
 .headeraddress p{
       font-size: 18px;
+}
+.search{
+      flex-grow: 1;
 }

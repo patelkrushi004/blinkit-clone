@@ -6,6 +6,7 @@
 }
 header{
       display: flex;
+      gap: 30px;
       border-bottom: 1px solid #ccc;
       border-top: 1px solid #ccc;
       align-items: center;
@@ -30,9 +31,10 @@ header{
 }
 .searchbox{
       flex-grow: 1;
-      background-color: #f8f8f8;
+      background-color: #efefef;
       display: flex;
-      border: 1px solid red;
+      border-radius: 15px;
+      border: 1px solid #f4f4f4;
 }
 .searchbox input{
       flex-grow: 1;
@@ -43,4 +45,28 @@ header{
       padding: 15px;
       border: none;
       background-color: transparent;
+}
+.searchbox input:focus{
+      outline: none;
+}
+.headerbtn{
+      display: flex;
+      gap:50px;
+      margin-right: 40px;
+}
+.headerbtn button{
+      padding: 15px;
+      font-size: 16px;
+      background-color: transparent;
+      border: none;
+}
+.headerbtn button:last-child{
+      background-color: rgb(12, 131, 31);
+      color: white;
+      font-weight: bold;
+      border-radius: 5px;
+
+}
+.headerbtn button{
+      color: rgb(54, 54, 54);
 }

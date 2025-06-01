@@ -8,6 +8,7 @@ header{
       display: flex;
       border-bottom: 1px solid #ccc;
       border-top: 1px solid #ccc;
+      align-items: center;
 }
 .headerleft{
       display: flex;
@@ -27,6 +28,19 @@ header{
 .headeraddress p{
       font-size: 18px;
 }
-.search{
+.searchbox{
       flex-grow: 1;
+      background-color: #f8f8f8;
+      display: flex;
+      border: 1px solid red;
+}
+.searchbox input{
+      flex-grow: 1;
+      border: none;
+      background-color: transparent;
+}
+.searchbox button{
+      padding: 15px;
+      border: none;
+      background-color: transparent;
 }

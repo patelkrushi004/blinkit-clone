@@ -70,3 +70,10 @@ header{
 .headerbtn button{
       color: rgb(54, 54, 54);
 }
+.bannersection{
+      max-width: 1280px;
+      margin: auto;
+}
+.bannersection img{
+      width: 100%;
+}

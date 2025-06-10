@@ -31,5 +31,10 @@
       }
       .orderbanner{
             flex-direction: column;
+            padding: 10px;
+            /* display: none; */
+      }
+      .categoryitems{
+            flex-basis: 25%;
       }
 }

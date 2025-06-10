@@ -77,3 +77,15 @@ header{
 .bannersection img{
       width: 100%;
 }
+.orderbanner{
+      display: flex;
+      max-width: 1280px;
+      margin: auto;
+}
+.orderbanneritems{
+      flex-basis: 27%;
+      margin: 1%;
+}
+.orderbanneritems img{
+      width: 100%;
+}

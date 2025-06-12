@@ -101,3 +101,22 @@ header{
 .categoryitems img{
       width: 100%;
 }
+
+.headingrow{
+      font-size: 22px;
+}
+
+.headingrow a{
+      color: #328839;
+      font-size: 18px;
+}
+
+.productrow{
+      width: 100%;
+      display: flex;
+}
+
+.productitems{
+      flex-basis: 15%;
+      border: 1px solid #ccc;
+}

@@ -109,14 +109,31 @@ header{
 .headingrow a{
       color: #328839;
       font-size: 18px;
+      
 }
-
+.productsection{
+       max-width: 1280px;
+      flex-wrap: wrap;
+      display: flex;
+      margin: auto;
+}
 .productrow{
       width: 100%;
+      margin: 30px 0px;
       display: flex;
 }
 
 .productitems{
       flex-basis: 15%;
       border: 1px solid #ccc;
+}
+.productimg{
+      text-align: center;
+      padding: 15px;
+}
+
+.productimg b{
+      display: block;
+      font-size: 12px;
+      text-align: left;
 }
